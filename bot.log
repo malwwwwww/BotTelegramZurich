@@ -1,0 +1,229 @@
+2025-06-16 01:37:39,865 - ERROR - No se encontró BOT_TOKEN en las variables de entorno
+2025-06-16 01:38:39,012 - INFO - Iniciando bot...
+2025-06-16 01:38:39,012 - WARNING - Usando hosts iniciales de hosts.py
+2025-06-16 01:38:39,417 - INFO - Bot iniciado correctamente, comenzando polling...
+2025-06-16 01:38:39,994 - INFO - HTTP Request: POST https://api.telegram.org/bot8004671936:AAGtMa8_oThlpXKeXXKHKx8snuyTDEt1MDE/getMe "HTTP/1.1 200 OK"
+2025-06-16 01:38:39,996 - INFO - Application started
+2025-06-16 01:38:40,160 - INFO - HTTP Request: POST https://api.telegram.org/bot8004671936:AAGtMa8_oThlpXKeXXKHKx8snuyTDEt1MDE/deleteWebhook "HTTP/1.1 200 OK"
+2025-06-16 01:38:40,711 - INFO - HTTP Request: POST https://api.telegram.org/bot8004671936:AAGtMa8_oThlpXKeXXKHKx8snuyTDEt1MDE/getUpdates "HTTP/1.1 200 OK"
+2025-06-16 01:38:40,713 - INFO - Mensaje recibido de chat_id 5952891888: ✅ Confirmar
+2025-06-16 01:38:41,004 - INFO - HTTP Request: POST https://api.telegram.org/bot8004671936:AAGtMa8_oThlpXKeXXKHKx8snuyTDEt1MDE/sendMessage "HTTP/1.1 200 OK"
+2025-06-16 01:38:50,292 - INFO - HTTP Request: POST https://api.telegram.org/bot8004671936:AAGtMa8_oThlpXKeXXKHKx8snuyTDEt1MDE/getUpdates "HTTP/1.1 200 OK"
+2025-06-16 01:38:50,305 - INFO - Recibido /start de chat_id 5952891888
+2025-06-16 01:38:50,982 - INFO - HTTP Request: POST https://api.telegram.org/bot8004671936:AAGtMa8_oThlpXKeXXKHKx8snuyTDEt1MDE/sendMessage "HTTP/1.1 200 OK"
+2025-06-16 01:38:50,984 - INFO - Inicio de login para chat_id 5952891888
+2025-06-16 01:38:58,694 - INFO - HTTP Request: POST https://api.telegram.org/bot8004671936:AAGtMa8_oThlpXKeXXKHKx8snuyTDEt1MDE/getUpdates "HTTP/1.1 200 OK"
+2025-06-16 01:38:58,700 - INFO - Verificando identificador para chat_id 5952891888: admin123
+2025-06-16 01:38:59,385 - INFO - HTTP Request: POST https://api.telegram.org/bot8004671936:AAGtMa8_oThlpXKeXXKHKx8snuyTDEt1MDE/sendMessage "HTTP/1.1 200 OK"
+2025-06-16 01:38:59,387 - INFO - Login exitoso para chat_id 5952891888 con identificador admin123, rol: admin
+2025-06-16 01:39:04,922 - INFO - HTTP Request: POST https://api.telegram.org/bot8004671936:AAGtMa8_oThlpXKeXXKHKx8snuyTDEt1MDE/getUpdates "HTTP/1.1 200 OK"
+2025-06-16 01:39:04,922 - INFO - Mensaje recibido de chat_id 5952891888: 🟢 Hosts activos
+2025-06-16 01:39:05,544 - INFO - HTTP Request: POST https://api.telegram.org/bot8004671936:AAGtMa8_oThlpXKeXXKHKx8snuyTDEt1MDE/sendMessage "HTTP/1.1 200 OK"
+2025-06-16 01:39:05,544 - INFO - Hosts activos solicitados por 5952891888
+2025-06-16 01:39:06,972 - INFO - HTTP Request: POST https://api.telegram.org/bot8004671936:AAGtMa8_oThlpXKeXXKHKx8snuyTDEt1MDE/getUpdates "HTTP/1.1 200 OK"
+2025-06-16 01:39:06,972 - INFO - Mensaje recibido de chat_id 5952891888: 🟢 Iniciar todo
+2025-06-16 01:39:06,972 - INFO - Monitoreo global iniciado por 5952891888
+2025-06-16 01:39:06,972 - INFO - Creando hilo de monitoreo para cctv
+2025-06-16 01:39:06,972 - INFO - Iniciando monitoreo para cctv
+2025-06-16 01:39:06,972 - INFO - Creando hilo de monitoreo para servers
+2025-06-16 01:39:06,972 - INFO - Iniciando monitoreo para servers
+2025-06-16 01:39:06,972 - INFO - Creando hilo de monitoreo para switches
+2025-06-16 01:39:06,972 - INFO - Iniciando monitoreo para switches
+2025-06-16 01:39:06,972 - INFO - Creando hilo de monitoreo para corporativo
+2025-06-16 01:39:06,972 - INFO - Iniciando monitoreo para corporativo
+2025-06-16 01:39:07,000 - INFO - Ping a 192.168.100.2: Éxito
+2025-06-16 01:39:07,000 - INFO - Ping a 192.168.100.1: Éxito
+2025-06-16 01:39:07,103 - INFO - Ping a 192.168.100.7: Éxito
+2025-06-16 01:39:07,260 - INFO - HTTP Request: POST https://api.telegram.org/bot8004671936:AAGtMa8_oThlpXKeXXKHKx8snuyTDEt1MDE/sendMessage "HTTP/1.1 200 OK"
+2025-06-16 01:39:07,260 - INFO - Monitoreo global iniciado por 5952891888
+2025-06-16 01:39:07,320 - INFO - Ping a 192.168.100.12: Éxito
+2025-06-16 01:39:07,642 - INFO - Ping a 192.168.100.254: Fallo
+2025-06-16 01:39:07,642 - INFO - Ping a 192.168.100.17: Fallo
+2025-06-16 01:39:07,642 - INFO - Ping a 192.168.100.8: Fallo
+2025-06-16 01:39:07,642 - INFO - Ping a 192.168.100.8: Fallo
+2025-06-16 01:39:12,128 - INFO - Ping a 192.168.100.2: Éxito
+2025-06-16 01:39:12,544 - INFO - Ping a 192.168.100.7: Éxito
+2025-06-16 01:39:12,694 - INFO - Ping a 192.168.100.1: Éxito
+2025-06-16 01:39:12,849 - INFO - Ping a 192.168.100.12: Éxito
+2025-06-16 01:39:13,643 - INFO - Ping a 192.168.100.254: Fallo
+2025-06-16 01:39:13,643 - INFO - Ping a 192.168.100.8: Fallo
+2025-06-16 01:39:13,981 - INFO - HTTP Request: POST https://api.telegram.org/bot8004671936:AAGtMa8_oThlpXKeXXKHKx8snuyTDEt1MDE/getUpdates "HTTP/1.1 200 OK"
+2025-06-16 01:39:13,986 - INFO - Botón 'Agregar Host' presionado por 5952891888
+2025-06-16 01:39:14,661 - INFO - HTTP Request: POST https://api.telegram.org/bot8004671936:AAGtMa8_oThlpXKeXXKHKx8snuyTDEt1MDE/sendMessage "HTTP/1.1 200 OK"
+2025-06-16 01:39:17,691 - INFO - Ping a 192.168.100.2: Éxito
+2025-06-16 01:39:17,859 - INFO - Ping a 192.168.100.7: Éxito
+2025-06-16 01:39:18,651 - INFO - Ping a 192.168.100.8: Fallo
+2025-06-16 01:39:18,651 - INFO - Ping a 192.168.100.17: Fallo
+2025-06-16 01:39:18,671 - INFO - Ping a 192.168.100.1: Éxito
+2025-06-16 01:39:18,794 - INFO - Ping a 192.168.100.12: Éxito
+2025-06-16 01:39:19,617 - INFO - HTTP Request: POST https://api.telegram.org/bot8004671936:AAGtMa8_oThlpXKeXXKHKx8snuyTDEt1MDE/getUpdates "HTTP/1.1 200 OK"
+2025-06-16 01:39:19,617 - INFO - Grupo recibido por 5952891888: switches
+2025-06-16 01:39:19,642 - INFO - Ping a 192.168.100.8: Fallo
+2025-06-16 01:39:19,642 - INFO - Ping a 192.168.100.254: Fallo
+2025-06-16 01:39:19,642 - WARNING - Host LG (192.168.100.8) en corporativo no responde tras 3 intentos
+2025-06-16 01:39:19,642 - WARNING - Host Tp-Link (192.168.100.254) en cctv no responde tras 3 intentos
+2025-06-16 01:39:19,913 - INFO - HTTP Request: POST https://api.telegram.org/bot8004671936:AAGtMa8_oThlpXKeXXKHKx8snuyTDEt1MDE/sendMessage "HTTP/1.1 200 OK"
+2025-06-16 01:39:20,311 - INFO - HTTP Request: POST https://api.telegram.org/bot8004671936:AAGtMa8_oThlpXKeXXKHKx8snuyTDEt1MDE/sendMessage "HTTP/1.1 200 OK"
+2025-06-16 01:39:20,314 - INFO - Mensaje enviado a 5952891888: 🚨 *[CCTV] ¡ALERTA!*
+`Tp-Link` (192.168.100.254) NO...
+2025-06-16 01:39:20,315 - INFO - HTTP Request: POST https://api.telegram.org/bot8004671936:AAGtMa8_oThlpXKeXXKHKx8snuyTDEt1MDE/sendMessage "HTTP/1.1 200 OK"
+2025-06-16 01:39:20,317 - INFO - Mensaje enviado a 5952891888: 🚨 *[CORPORATIVO] ¡ALERTA!*
+`LG` (192.168.100.8) NO...
+2025-06-16 01:39:22,919 - INFO - Ping a 192.168.100.2: Éxito
+2025-06-16 01:39:23,100 - INFO - Ping a 192.168.100.7: Éxito
+2025-06-16 01:39:24,692 - INFO - Ping a 192.168.100.1: Éxito
+2025-06-16 01:39:24,840 - INFO - Ping a 192.168.100.12: Éxito
+2025-06-16 01:39:25,650 - INFO - Ping a 192.168.100.254: Fallo
+2025-06-16 01:39:25,650 - INFO - Ping a 192.168.100.8: Fallo
+2025-06-16 01:39:28,270 - INFO - Ping a 192.168.100.2: Éxito
+2025-06-16 01:39:28,300 - INFO - Ping a 192.168.100.7: Éxito
+2025-06-16 01:39:29,641 - INFO - Ping a 192.168.100.8: Fallo
+2025-06-16 01:39:29,641 - WARNING - Host Intel (192.168.100.8) en switches no responde tras 3 intentos
+2025-06-16 01:39:29,641 - INFO - Ping a 192.168.100.17: Fallo
+2025-06-16 01:39:29,641 - WARNING - Host Liteon (192.168.100.17) en switches no responde tras 3 intentos
+2025-06-16 01:39:29,810 - INFO - HTTP Request: POST https://api.telegram.org/bot8004671936:AAGtMa8_oThlpXKeXXKHKx8snuyTDEt1MDE/getUpdates "HTTP/1.1 200 OK"
+2025-06-16 01:39:30,676 - INFO - Ping a 192.168.100.1: Éxito
+2025-06-16 01:39:30,881 - INFO - Ping a 192.168.100.12: Éxito
+2025-06-16 01:39:30,914 - INFO - HTTP Request: POST https://api.telegram.org/bot8004671936:AAGtMa8_oThlpXKeXXKHKx8snuyTDEt1MDE/sendMessage "HTTP/1.1 200 OK"
+2025-06-16 01:39:30,915 - INFO - Mensaje enviado a 5952891888: 🚨 *[SWITCHES] ¡ALERTA!*
+`Liteon` (192.168.100.17) ...
+2025-06-16 01:39:30,933 - INFO - HTTP Request: POST https://api.telegram.org/bot8004671936:AAGtMa8_oThlpXKeXXKHKx8snuyTDEt1MDE/sendMessage "HTTP/1.1 200 OK"
+2025-06-16 01:39:30,935 - INFO - Mensaje enviado a 5952891888: 🚨 *[SWITCHES] ¡ALERTA!*
+`Intel` (192.168.100.8) NO...
+2025-06-16 01:39:31,650 - INFO - Ping a 192.168.100.8: Éxito
+2025-06-16 01:39:31,650 - INFO - Host LG (192.168.100.8) en corporativo volvió a responder
+2025-06-16 01:39:31,650 - INFO - Ping a 192.168.100.254: Fallo
+2025-06-16 01:39:31,955 - INFO - HTTP Request: POST https://api.telegram.org/bot8004671936:AAGtMa8_oThlpXKeXXKHKx8snuyTDEt1MDE/sendMessage "HTTP/1.1 200 OK"
+2025-06-16 01:39:31,959 - INFO - Mensaje enviado a 5952891888: ✅ *[CORPORATIVO] RECUPERADO*
+`LG` (192.168.100.8) ...
+2025-06-16 01:39:33,320 - INFO - Ping a 192.168.100.2: Éxito
+2025-06-16 01:39:33,522 - INFO - Ping a 192.168.100.7: Éxito
+2025-06-16 01:39:35,444 - INFO - HTTP Request: POST https://api.telegram.org/bot8004671936:AAGtMa8_oThlpXKeXXKHKx8snuyTDEt1MDE/getUpdates "HTTP/1.1 200 OK"
+2025-06-16 01:39:35,444 - INFO - IP recibida por 5952891888 para switches: 127.0.0.1
+2025-06-16 01:39:35,744 - INFO - HTTP Request: POST https://api.telegram.org/bot8004671936:AAGtMa8_oThlpXKeXXKHKx8snuyTDEt1MDE/sendMessage "HTTP/1.1 200 OK"
+2025-06-16 01:39:36,680 - INFO - Ping a 192.168.100.1: Éxito
+2025-06-16 01:39:36,985 - INFO - Ping a 192.168.100.12: Éxito
+2025-06-16 01:39:37,656 - INFO - Ping a 192.168.100.8: Fallo
+2025-06-16 01:39:37,656 - INFO - Ping a 192.168.100.254: Fallo
+2025-06-16 01:39:38,594 - INFO - Ping a 192.168.100.2: Éxito
+2025-06-16 01:39:38,756 - INFO - Ping a 192.168.100.7: Éxito
+2025-06-16 01:39:40,646 - INFO - Ping a 192.168.100.17: Fallo
+2025-06-16 01:39:40,646 - INFO - Ping a 192.168.100.8: Fallo
+2025-06-16 01:39:40,946 - INFO - HTTP Request: POST https://api.telegram.org/bot8004671936:AAGtMa8_oThlpXKeXXKHKx8snuyTDEt1MDE/getUpdates "HTTP/1.1 200 OK"
+2025-06-16 01:39:40,948 - INFO - Nombre recibido por 5952891888: localhost
+2025-06-16 01:39:41,570 - INFO - HTTP Request: POST https://api.telegram.org/bot8004671936:AAGtMa8_oThlpXKeXXKHKx8snuyTDEt1MDE/sendMessage "HTTP/1.1 200 OK"
+2025-06-16 01:39:42,690 - INFO - Ping a 192.168.100.1: Éxito
+2025-06-16 01:39:42,980 - INFO - Ping a 192.168.100.12: Éxito
+2025-06-16 01:39:43,500 - INFO - HTTP Request: POST https://api.telegram.org/bot8004671936:AAGtMa8_oThlpXKeXXKHKx8snuyTDEt1MDE/getUpdates "HTTP/1.1 200 OK"
+2025-06-16 01:39:43,504 - INFO - Confirmación de agregar recibida por 5952891888: ✅ Confirmar
+2025-06-16 01:39:43,504 - INFO - Intentando agregar host: localhost (127.0.0.1) a switches por 5952891888
+2025-06-16 01:39:43,650 - INFO - Ping a 192.168.100.8: Fallo
+2025-06-16 01:39:43,650 - INFO - Ping a 192.168.100.254: Fallo
+2025-06-16 01:47:17,182 - ERROR - No se encontró BOT_TOKEN en las variables de entorno
+2025-06-16 01:47:29,364 - INFO - Iniciando bot...
+2025-06-16 01:47:29,364 - WARNING - Usando hosts iniciales de hosts.py
+2025-06-16 01:47:29,810 - INFO - Bot iniciado correctamente, comenzando polling...
+2025-06-16 01:47:30,459 - INFO - HTTP Request: POST https://api.telegram.org/bot8004671936:AAGtMa8_oThlpXKeXXKHKx8snuyTDEt1MDE/getMe "HTTP/1.1 200 OK"
+2025-06-16 01:47:30,459 - INFO - Application started
+2025-06-16 01:47:30,659 - INFO - HTTP Request: POST https://api.telegram.org/bot8004671936:AAGtMa8_oThlpXKeXXKHKx8snuyTDEt1MDE/deleteWebhook "HTTP/1.1 200 OK"
+2025-06-16 01:47:31,185 - INFO - HTTP Request: POST https://api.telegram.org/bot8004671936:AAGtMa8_oThlpXKeXXKHKx8snuyTDEt1MDE/getUpdates "HTTP/1.1 200 OK"
+2025-06-16 01:47:31,203 - INFO - Mensaje recibido de chat_id 5952891888: ✅ Confirmar
+2025-06-16 01:47:31,503 - INFO - HTTP Request: POST https://api.telegram.org/bot8004671936:AAGtMa8_oThlpXKeXXKHKx8snuyTDEt1MDE/sendMessage "HTTP/1.1 200 OK"
+2025-06-16 01:47:31,509 - INFO - Mensaje recibido de chat_id 5952891888: ❌ Cancelar
+2025-06-16 01:47:31,794 - INFO - HTTP Request: POST https://api.telegram.org/bot8004671936:AAGtMa8_oThlpXKeXXKHKx8snuyTDEt1MDE/sendMessage "HTTP/1.1 200 OK"
+2025-06-16 01:47:34,144 - INFO - HTTP Request: POST https://api.telegram.org/bot8004671936:AAGtMa8_oThlpXKeXXKHKx8snuyTDEt1MDE/getUpdates "HTTP/1.1 200 OK"
+2025-06-16 01:47:34,149 - INFO - Recibido /start de chat_id 5952891888
+2025-06-16 01:47:34,439 - INFO - HTTP Request: POST https://api.telegram.org/bot8004671936:AAGtMa8_oThlpXKeXXKHKx8snuyTDEt1MDE/sendMessage "HTTP/1.1 200 OK"
+2025-06-16 01:47:34,444 - INFO - Inicio de login para chat_id 5952891888
+2025-06-16 01:47:43,139 - INFO - HTTP Request: POST https://api.telegram.org/bot8004671936:AAGtMa8_oThlpXKeXXKHKx8snuyTDEt1MDE/getUpdates "HTTP/1.1 200 OK"
+2025-06-16 01:47:43,144 - INFO - Verificando identificador para chat_id 5952891888: admin123
+2025-06-16 01:47:43,794 - INFO - HTTP Request: POST https://api.telegram.org/bot8004671936:AAGtMa8_oThlpXKeXXKHKx8snuyTDEt1MDE/sendMessage "HTTP/1.1 200 OK"
+2025-06-16 01:47:43,797 - INFO - Login exitoso para chat_id 5952891888 con identificador admin123, rol: admin
+2025-06-16 01:47:50,020 - INFO - HTTP Request: POST https://api.telegram.org/bot8004671936:AAGtMa8_oThlpXKeXXKHKx8snuyTDEt1MDE/getUpdates "HTTP/1.1 200 OK"
+2025-06-16 01:47:50,026 - INFO - Mensaje recibido de chat_id 5952891888: 🟢 Iniciar todo
+2025-06-16 01:47:50,026 - INFO - Monitoreo global iniciado por 5952891888
+2025-06-16 01:47:50,026 - INFO - Creando hilo de monitoreo para cctv
+2025-06-16 01:47:50,030 - INFO - Iniciando monitoreo para cctv
+2025-06-16 01:47:50,030 - INFO - Creando hilo de monitoreo para servers
+2025-06-16 01:47:50,032 - INFO - Iniciando monitoreo para servers
+2025-06-16 01:47:50,032 - INFO - Creando hilo de monitoreo para switches
+2025-06-16 01:47:50,034 - INFO - Iniciando monitoreo para switches
+2025-06-16 01:47:50,034 - INFO - Creando hilo de monitoreo para corporativo
+2025-06-16 01:47:50,036 - INFO - Iniciando monitoreo para corporativo
+2025-06-16 01:47:50,085 - INFO - Ping a 192.168.100.2: Éxito
+2025-06-16 01:47:50,091 - INFO - Ping a 192.168.100.1: Éxito
+2025-06-16 01:47:50,594 - INFO - Ping a 192.168.100.7: Éxito
+2025-06-16 01:47:50,604 - INFO - Ping a 192.168.100.12: Éxito
+2025-06-16 01:47:50,720 - INFO - HTTP Request: POST https://api.telegram.org/bot8004671936:AAGtMa8_oThlpXKeXXKHKx8snuyTDEt1MDE/sendMessage "HTTP/1.1 200 OK"
+2025-06-16 01:47:50,724 - INFO - Monitoreo global iniciado por 5952891888
+2025-06-16 01:47:51,144 - INFO - Ping a 192.168.100.254: Éxito
+2025-06-16 01:47:51,144 - INFO - Ping a 192.168.100.8: Éxito
+2025-06-16 01:47:51,650 - INFO - Ping a 192.168.100.17: Fallo
+2025-06-16 01:47:51,652 - INFO - Ping a 192.168.100.8: Fallo
+2025-06-16 01:47:52,404 - INFO - HTTP Request: POST https://api.telegram.org/bot8004671936:AAGtMa8_oThlpXKeXXKHKx8snuyTDEt1MDE/getUpdates "HTTP/1.1 200 OK"
+2025-06-16 01:47:52,408 - INFO - Botón 'Agregar Host' presionado por 5952891888
+2025-06-16 01:47:52,706 - INFO - HTTP Request: POST https://api.telegram.org/bot8004671936:AAGtMa8_oThlpXKeXXKHKx8snuyTDEt1MDE/sendMessage "HTTP/1.1 200 OK"
+2025-06-16 01:47:55,764 - INFO - Ping a 192.168.100.2: Éxito
+2025-06-16 01:47:55,944 - INFO - Ping a 192.168.100.7: Éxito
+2025-06-16 01:47:56,204 - INFO - Ping a 192.168.100.1: Éxito
+2025-06-16 01:47:56,220 - INFO - Ping a 192.168.100.12: Éxito
+2025-06-16 01:47:58,158 - INFO - Ping a 192.168.100.254: Fallo
+2025-06-16 01:47:58,158 - INFO - Ping a 192.168.100.8: Fallo
+2025-06-16 01:47:58,248 - INFO - HTTP Request: POST https://api.telegram.org/bot8004671936:AAGtMa8_oThlpXKeXXKHKx8snuyTDEt1MDE/getUpdates "HTTP/1.1 200 OK"
+2025-06-16 01:47:58,253 - INFO - Grupo recibido por 5952891888: corporativo
+2025-06-16 01:47:58,884 - INFO - HTTP Request: POST https://api.telegram.org/bot8004671936:AAGtMa8_oThlpXKeXXKHKx8snuyTDEt1MDE/sendMessage "HTTP/1.1 200 OK"
+2025-06-16 01:48:01,069 - INFO - Ping a 192.168.100.2: Éxito
+2025-06-16 01:48:01,224 - INFO - Ping a 192.168.100.7: Éxito
+2025-06-16 01:48:03,204 - INFO - Ping a 192.168.100.1: Éxito
+2025-06-16 01:48:03,327 - INFO - Ping a 192.168.100.12: Éxito
+2025-06-16 01:48:03,835 - INFO - HTTP Request: POST https://api.telegram.org/bot8004671936:AAGtMa8_oThlpXKeXXKHKx8snuyTDEt1MDE/getUpdates "HTTP/1.1 200 OK"
+2025-06-16 01:48:03,844 - INFO - IP recibida por 5952891888 para corporativo: 127.0.0.1
+2025-06-16 01:48:04,136 - INFO - HTTP Request: POST https://api.telegram.org/bot8004671936:AAGtMa8_oThlpXKeXXKHKx8snuyTDEt1MDE/sendMessage "HTTP/1.1 200 OK"
+2025-06-16 01:48:05,148 - INFO - Ping a 192.168.100.8: Fallo
+2025-06-16 01:48:05,148 - INFO - Ping a 192.168.100.254: Fallo
+2025-06-16 01:48:06,281 - INFO - Ping a 192.168.100.2: Éxito
+2025-06-16 01:48:06,534 - INFO - Ping a 192.168.100.7: Éxito
+2025-06-16 01:48:08,655 - INFO - Ping a 192.168.100.8: Fallo
+2025-06-16 01:48:08,655 - INFO - Ping a 192.168.100.17: Fallo
+2025-06-16 01:48:10,190 - INFO - Ping a 192.168.100.1: Éxito
+2025-06-16 01:48:10,246 - INFO - Ping a 192.168.100.12: Éxito
+2025-06-16 01:48:11,624 - INFO - Ping a 192.168.100.2: Éxito
+2025-06-16 01:48:11,794 - INFO - Ping a 192.168.100.7: Éxito
+2025-06-16 01:48:12,153 - INFO - Ping a 192.168.100.8: Fallo
+2025-06-16 01:48:12,154 - INFO - Ping a 192.168.100.254: Fallo
+2025-06-16 01:48:13,914 - INFO - HTTP Request: POST https://api.telegram.org/bot8004671936:AAGtMa8_oThlpXKeXXKHKx8snuyTDEt1MDE/getUpdates "HTTP/1.1 200 OK"
+2025-06-16 01:48:13,914 - INFO - Nombre recibido por 5952891888: localhost
+2025-06-16 01:48:14,664 - INFO - HTTP Request: POST https://api.telegram.org/bot8004671936:AAGtMa8_oThlpXKeXXKHKx8snuyTDEt1MDE/sendMessage "HTTP/1.1 200 OK"
+2025-06-16 01:48:15,807 - INFO - HTTP Request: POST https://api.telegram.org/bot8004671936:AAGtMa8_oThlpXKeXXKHKx8snuyTDEt1MDE/getUpdates "HTTP/1.1 200 OK"
+2025-06-16 01:48:15,809 - INFO - Confirmación de agregar recibida por 5952891888: ✅ Confirmar
+2025-06-16 01:48:15,809 - INFO - Intentando agregar host: localhost (127.0.0.1) a corporativo por 5952891888
+2025-06-16 01:48:15,814 - INFO - Hosts guardados correctamente
+2025-06-16 01:48:16,104 - INFO - HTTP Request: POST https://api.telegram.org/bot8004671936:AAGtMa8_oThlpXKeXXKHKx8snuyTDEt1MDE/sendMessage "HTTP/1.1 200 OK"
+2025-06-16 01:48:16,108 - INFO - Host localhost (127.0.0.1) agregado a corporativo por 5952891888
+2025-06-16 01:48:16,827 - INFO - Ping a 192.168.100.2: Éxito
+2025-06-16 01:48:17,136 - INFO - Ping a 192.168.100.7: Éxito
+2025-06-16 01:48:17,186 - INFO - Ping a 127.0.0.1: Éxito
+2025-06-16 01:48:17,194 - INFO - Ping a 192.168.100.1: Éxito
+2025-06-16 01:48:17,646 - INFO - Ping a 192.168.100.12: Éxito
+2025-06-16 01:48:19,144 - INFO - Ping a 192.168.100.254: Fallo
+2025-06-16 01:48:19,144 - INFO - Ping a 192.168.100.8: Fallo
+2025-06-16 01:48:22,354 - INFO - Ping a 192.168.100.2: Éxito
+2025-06-16 01:48:22,354 - INFO - Ping a 192.168.100.7: Éxito
+2025-06-16 01:48:24,164 - INFO - Ping a 127.0.0.1: Éxito
+2025-06-16 01:48:24,303 - INFO - Ping a 192.168.100.1: Éxito
+2025-06-16 01:48:24,304 - INFO - Ping a 192.168.100.12: Éxito
+2025-06-16 01:48:25,639 - INFO - Ping a 192.168.100.8: Fallo
+2025-06-16 01:48:25,639 - INFO - Ping a 192.168.100.17: Fallo
+2025-06-16 01:48:26,045 - INFO - HTTP Request: POST https://api.telegram.org/bot8004671936:AAGtMa8_oThlpXKeXXKHKx8snuyTDEt1MDE/getUpdates "HTTP/1.1 200 OK"
+2025-06-16 01:48:26,142 - INFO - Ping a 192.168.100.254: Fallo
+2025-06-16 01:48:26,142 - INFO - Ping a 192.168.100.8: Fallo
+2025-06-16 01:48:26,142 - WARNING - Host Tp-Link (192.168.100.254) en cctv no responde tras 5 intentos
+2025-06-16 01:48:26,144 - WARNING - Host LG (192.168.100.8) en corporativo no responde tras 5 intentos
+2025-06-16 01:48:26,865 - INFO - HTTP Request: POST https://api.telegram.org/bot8004671936:AAGtMa8_oThlpXKeXXKHKx8snuyTDEt1MDE/sendMessage "HTTP/1.1 200 OK"
+2025-06-16 01:48:26,865 - INFO - Mensaje enviado a 5952891888: 🚨 *[CORPORATIVO] ¡ALERTA!*
+`LG` (192.168.100.8) NO...
+2025-06-16 01:48:26,876 - INFO - HTTP Request: POST https://api.telegram.org/bot8004671936:AAGtMa8_oThlpXKeXXKHKx8snuyTDEt1MDE/sendMessage "HTTP/1.1 200 OK"
+2025-06-16 01:48:26,880 - INFO - Mensaje enviado a 5952891888: 🚨 *[CCTV] ¡ALERTA!*
+`Tp-Link` (192.168.100.254) NO...
+2025-06-16 01:48:27,415 - INFO - Ping a 192.168.100.2: Éxito
+2025-06-16 01:48:27,654 - INFO - Ping a 192.168.100.7: Fallo
