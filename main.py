@@ -817,5 +817,6 @@ if __name__ == "__main__":
         loop.run_until_complete(main())
     finally:
         loop.close()
+        
     #AGREGAR TOKEN AL ENTORNO VIRTUAL
-    #$env:BOT_TOKEN="8004671936:AAGtMa8_oThlpXKeXXKHKx8snuyTDEt1MDE"
+    #      BOT_TOKEN="8028421146:AAELXcV_yvl1HS3A---XdByN93s3UW6HsTs"
